@@ -553,6 +553,7 @@ header.welcome-page .account-dropdown > a{
 header.welcome-page .account-dropdown .dropdown-menu{
     background: transparent;
     top: 70%;
+    background: rgba(0,169,128,0.9);
 }
 header.welcome-page .account-dropdown .dropdown-menu a{
     color: #FFF;
