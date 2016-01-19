@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+
 body{    
     font-family: 'Montserrat', sans-serif;
     height: 100%;
@@ -25,7 +27,7 @@ input[type="submit"] {
     padding-left: 85px;
 }
 header.container-fluid{
-    height: 184px;
+    height: 92px;
     padding-left: 0px;
     padding-right: 0px;
     /*background: red;*/
@@ -38,9 +40,9 @@ header.container-fluid .row div:last-child{
     padding-right: 0px;
 }
 header a.logo{
-    line-height: 184px;
+    line-height: 92px;
     color: #00a980;
-    font-size: 42px;
+    font-size: 21px;
     display: block;
     /*text-align: center;*/
     border-right: 2px solid #969696;
@@ -57,10 +59,10 @@ header input[type=submit]{
     /*display: block;*/
 }
 header input[type=text]{
-    line-height: 182px;
-    height: 182px;
+    line-height: 90px;
+    height: 90px;
     color: #a8a8a8;
-    font-size: 33px;
+    font-size: 22px;
     border: none;
     padding-left: 35px;
     display: inline-block;
@@ -88,9 +90,9 @@ header input[type=text]:focus{
 .account-dropdown > a{
     display: block;
     color: #a8a8a8;
-    font-size: 33px;
-    line-height: 184px;
-    height: 184px;
+    font-size: 22px;
+    line-height: 92px;
+    height: 92px;
     cursor: pointer;
     border-left: 2px solid #969696;
     text-align: center;
@@ -102,7 +104,7 @@ header input[type=text]:focus{
 .account-dropdown .dropdown-menu{
     padding: 0px;
     margin: 0px;
-    font-size: 33px;
+    font-size: 22px;
     box-shadow: none;
     border: none;
     border-radius: 0px;
@@ -113,8 +115,8 @@ header input[type=text]:focus{
 }
 nav.green-nav{
     background: #00a980;
-    line-height: 98px;
-    height: 98px;
+    line-height: 60px;
+    height: 60px;
 }
 nav.green-nav ul{
     list-style-type: none;
@@ -122,29 +124,29 @@ nav.green-nav ul{
 }
 nav.green-nav ul li{
     float: left;
-    width: 170px;
+    width: 120px;
 }
 nav.green-nav ul li a{
     color: #FFF;
-    font-size: 33px;
+    font-size: 22px;
     /*display: inline-block;*/
     padding: 0px 5px 3px;
 }
 nav.green-nav ul li a:hover,
 nav.green-nav ul li a.active{
-    border-bottom: 4px solid #FFF;
+    border-bottom: 2px solid #FFF;
 }
 .main-content{
-    padding-top: 135px;
+    padding-top: 65px;
 }
 .main-content h2{
     color: #FFF;
-    font-size: 62.5px;
-    margin-bottom: 64px;
+    font-size: 43px;
+    margin-bottom: 32px;
 }
 .main-content p{
     color: #FFF;
-    font-size: 42px;
+    font-size: 27px;
 }
 .about-page{
     background: url('../img/about.jpg') no-repeat center top;
@@ -161,7 +163,7 @@ nav.green-nav ul li a.active{
     -moz-appearance: none;
     text-indent: 10%;
     text-overflow: '';
-    font-size: 33px;
+    font-size: 22px;
     color: #191919;
     /*margin-top: 15px;*/
 }
@@ -189,7 +191,7 @@ nav.green-nav ul li a.active{
     -moz-appearance: none;
     text-indent: 10%;
     text-overflow: '';
-    font-size: 33px;
+    font-size: 22px;
     color: #191919;
     /*margin-top: 15px;*/
 }
@@ -200,7 +202,7 @@ nav.green-nav ul li a.active{
     line-height: 103px;
     -webkit-appearance: none;
     -moz-appearance: none;
-    font-size: 44px;
+    font-size: 22px;
     background: #00a980;
     color: #FFF;
     /*margin-top: 15px;*/
@@ -341,16 +343,16 @@ nav.green-nav ul li a.active{
 }
 .hotel-result-page p{
     color: #FFF;
-    font-size: 83px;
+    font-size: 40px;
     text-align: right;
     border-right: 2px solid #FFF;
     padding: 70px 30px 70px 0px;
-    line-height: 100px;
+    line-height: 50px;
 }
 .hotel-result-page a{
     color: #FFF;
     display: block;
-    font-size: 62px;
+    font-size: 35px;
 }
 .hotel-result-page a:first-child{
     padding-top: 75px;
@@ -376,7 +378,7 @@ nav.green-nav ul li a.active{
 .login-page h3{
     margin-top: 100px;
     margin-bottom: 60px;
-    font-size: 52px;
+    font-size: 27px;
 }
 .login-page input{
     display: block;
@@ -384,21 +386,21 @@ nav.green-nav ul li a.active{
 }
 .login-page input[type=text],
 .login-page input[type=password]{
-    font-size: 44px;
+    font-size: 22px;
     color: #000;
     margin-bottom: 24px;
     width: 100%;
-    height: 125px;
-    line-height: 125px;
+    height: 65px;
+    line-height: 65px;
     padding: 0px 30px;
 }
 
 .login-page input[type=submit]{
     width: 100%;
-    height: 115px;
-    line-height: 115px;
+    height: 55px;
+    line-height: 55px;
     color: #FFF;
-    font-size: 52px;
+    font-size: 27px;
     border-radius: 15px;
     background: #09b486;
 }
@@ -421,53 +423,58 @@ nav.green-nav ul li a.active{
     display: none;
 }
 .login-page .custom-check label{
-    font-size: 35px;
-    line-height: 55px;
+    font-size: 20px;
+    line-height: 25px;
     margin-top: 40px;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
     cursor: pointer;
 }
 .login-page .custom-check label > span{
     display: block;
     float: left;
-    width: 55px;
-    height: 55px;
+    width: 25px;
+    height: 25px;
     border: 2px solid #FFF;
     margin-right: 40px;
 }
 .login-page .custom-check label > span span{
     display: block;
-    width: 40px;
-    height: 40px;
+    width: 21px;
+    height: 21px;
     background: #FFF;
-    margin-top: 6px;
-    margin-left: 6px;
+    margin-top: 0px;
+    margin-left: 0px;
     display: none;
 }
 .login-page .custom-check input:checked + label > span span{
     display: block;
 }
 .login-page p{
-    font-size: 52px;
+    font-size: 27px;
     margin-top: 5%;
     margin-bottom: 5%;
     line-height: 125px;
 }
 .login-page p a{
-    font-size: 49px;
+    font-size: 25px;
     display: inline-block;
     background: #27508a;
     border-radius: 15px;
     color: #FFF;
-    line-height: 125px;
+    line-height: 65px;
     padding-right: 50px;
     margin-left: 50px;
 }
 .login-page p a i{
     position: relative;
-    top: 20px;
-    margin-left: 40px;
-    margin-right: 50px;
+    /*top: 20px;*/
+    margin-left: 20px;
+    margin-right: 20px;/*
+    transform: scale(0.5, 0.5);
+-webkit-transform: scale(0.5, 0.5);
+-moz-transform: scale(0.5, 0.5);
+-o-transform: scale(0.5, 0.5);
+-ms-transform: scale(0.5, 0.5);*/
 }
 /*request page*/
 .request-page{
@@ -476,28 +483,29 @@ nav.green-nav ul li a.active{
     color: #FFF;
 }
 .request-page h2{
-    font-size: 102px;
+    font-size: 51px;
     margin-top: 10%;
     font-weight: 400;
 }
 .request-page label{
-    font-size: 54px;
-    margin-top: 100px;
+    font-size: 27px;
+    margin-top: 50px;
     margin-bottom: 30px;
     font-weight: 400;
 }
 .request-page input{
     border-radius: 15px;
     border: none;
-    line-height: 150px;
-    height: 150px;
+    line-height: 70px;
+    height: 70px;
     width: 100%;
-    font-size: 54px;
+    font-size: 27px;
 }
 .request-page input[type=text]{
     color: #58595b;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 20px;
 }
 .request-page input[type=text]::-webkit-input-placeholder {
    color: #58595b;
@@ -532,14 +540,14 @@ header.welcome-page{
     color: #FFF;
 }
 header.welcome-page h1{
-    margin-top: 5%;
+    margin-top: 2%;
     text-align: center;
-    font-size: 100px;
+    font-size: 75px;
     font-weight: 700;
 }
 header.welcome-page h3{
     text-align: center;
-    font-size: 62px;
+    font-size: 48px;
     font-weight: 400;
 }
 header.welcome-page a.logo{
@@ -578,11 +586,11 @@ header.welcome-page form button{
     border: none;
     background: #FFF;
     display: block;
-    height: 100px;
-    line-height: 100px;
+    height: 75px;
+    line-height: 75px;
     width: 104%;
     position: relative;
-    /*right: -6px;*/
+    right: -1px;
 }
 header.welcome-page form button i{
     /*margin: 0 auto;*/
@@ -594,16 +602,16 @@ header.welcome-page form button i{
 }
 header.welcome-page form input{
     width: 100%;
-    height: 100px;
-    line-height: 100px;
+    height: 75px;
+    line-height: 75px;
     margin-bottom: 5px;
 }
 header.welcome-page form input[type=text]{
-    font-size: 33px;
+    font-size: 22px;
 }
 header.welcome-page form input[type=submit]{
     text-indent: 0px;
-    font-size: 43px;
+    font-size: 25px;
     background: rgba(0,169,128,0.9);
     margin: 0px;
 }
@@ -643,7 +651,7 @@ section.welcome-page{
 }
 .welcome-hotel > div > p{
     margin-left: 25px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     font-size: 21px;
     background: rgba(0,169,128,0.9);
     width: 150px;
@@ -654,13 +662,13 @@ section.welcome-page{
 .welcome-hotel div.row div:nth-child(1) > p{
     margin: 0px;
     margin-left: 25px;
-    font-size: 42px;
+    font-size: 21px;
     font-weight: 700;
     text-shadow: 5px 5px 30px rgba(0, 0, 0, 0.75);
 }
 .welcome-hotel div.row div:nth-child(1) > p:first-child{
     /*background: red;*/
-    margin-top: 20px;
+    margin-top: 00px;
 }
 .welcome-hotel div.row div:nth-child(2){
     text-align: right;
@@ -671,14 +679,15 @@ section.welcome-page{
     text-shadow: 5px 5px 30px rgba(0, 0, 0, 0.75);
 }
 .welcome-hotel div.row div:nth-child(2) > p:nth-child(1){
-    font-size: 46px;
+    font-size: 23px;
     text-decoration: line-through;
 }
 .welcome-hotel div.row div:nth-child(2) > p:nth-child(2){
-    font-size: 60px;
+    font-size: 30px;
 }
 .welcome-hotel.hotel-list{
         min-height: 550px;
+        min-height: 320px;
     }
 /*hotel page*/
 .hotel-page #hotel-slider{
@@ -709,10 +718,10 @@ section.welcome-page{
     bottom: 225px;
 }
 .hotel-page #hotel-slider .carousel-caption h3{
-    font-size: 77px;
+    font-size: 38px;
 }
 .hotel-page #hotel-slider .carousel-caption p{
-    font-size: 33px;
+    font-size: 22px;
 }
 .hotel-page .item img{
     width: 100%;
@@ -732,6 +741,7 @@ section.welcome-page{
 .datepicker{
     /*color: red;*/
     font-size: 2.5em;
+    font-size: 18px;
     /*padding: 25px;*/
     cursor: pointer;
 }
@@ -746,7 +756,7 @@ section.welcome-page{
 }
 .room-price .room-header-price{
     color: #737373;
-    font-size: 33px;
+    font-size: 22px;
     padding-bottom: 45px;
 }
 .room-price img{
@@ -760,35 +770,35 @@ section.welcome-page{
 }
 .room-price .room-body-price h4{
     color: #191919;
-    font-size: 33px;
+    font-size: 18px;
 }
 .room-price .room-body-price h5{
     color: #00a980;
     border: 2px solid #00a980;
     border-radius: 5px;
     text-align: center;
-    line-height: 52px;
-    height: 52px;
-    font-size: 25px;
+    line-height: 40px;
+    height: 40px;
+    font-size: 15px;
 }
 .room-price .room-body-price h5 i{
     position: relative;
     top: 3px;
 }
 .room-price .room-body-price div:nth-child(2) p{
-    font-size: 25px;
-    padding: 20px 0px;
+    font-size: 18px;
+    padding: 10px 0px;
 }
 
 .room-price .room-body-price div:nth-child(3) p{
-    font-size: 33px;
+    font-size: 22px;
 }
 .room-price .room-body-price div:nth-child(3) p span{
-    font-size: 25px;
+    font-size: 18px;
     text-decoration: line-through;
 }
 .room-price .room-body-price div:nth-child(4) p{
-    font-size: 63px;
+    font-size: 31px;
 }
 
 .room-body-price a{
@@ -796,9 +806,9 @@ section.welcome-page{
     color: #FFF;
     width: 100%;
     display: block;
-    height: 100px;
-    line-height: 100px;
-    font-size: 44px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 22px;
     text-align: center;
     border-radius: 15px;
 }
@@ -813,23 +823,23 @@ section.welcome-page{
 }
 .what-to-know h4{
     color: #333333;
-    font-size: 45px;
+    font-size: 25px;
     font-weight: 700;
     margin: 0px;
-    margin-bottom: 60px;
+    margin-bottom: 30px;
 }
 .what-to-know h5{
     color: #191919;
-    font-size: 33px;
+    font-size: 17px;
     font-weight: 400;
     margin: 0px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
 }
 .what-to-know p{
     color: #191919;
-    font-size: 30px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 64px;
+    line-height: 24px;
 }
 .largeImg{
     /*margin-bottom: 8px;*/
@@ -846,9 +856,9 @@ section.welcome-page{
 #map{
     width: 100%;
     height: 34.67666354264292vw;
-    -moz-transform: scale(2, 2);
+    /*-moz-transform: scale(2, 2);
     zoom: 2;
-    zoom: 200%;
+    zoom: 200%;*/
     /*height: 700px;*/
 }
 .more-hotels{
@@ -857,10 +867,10 @@ section.welcome-page{
     padding-bottom: 70px;
 }
 .more-hotels h3{
-    font-size: 40px;
+    font-size: 30px;
     color: #191919;
     margin: 0px;
-    line-height: 120px;
+    line-height: 60px;
 }/*
 .more-hotels h4{`
     position: absolute;
@@ -903,26 +913,38 @@ section.welcome-page{
 }
 /*media queries*/
 @media only screen and (max-width: 2000px){
-    body {
-    -moz-transform: scale(0.6, 0.6); /* Moz-browsers */
-    zoom: 0.6; /* Other non-webkit browsers */
-    zoom: 60%; /* Webkit browsers */
-    }
+    /*body {
+    -moz-transform: scale(0.6, 0.6); 
+    zoom: 0.6; 
+    zoom: 60%;
+    }*/
 }
 @media only screen and (max-width: 1500px){
-    body {
-    -moz-transform: scale(0.5, 0.5); /* Moz-browsers */
-    zoom: 0.5; /* Other non-webkit browsers */
-    zoom: 50%; /* Webkit browsers */
+   /* body {
+    -moz-transform: scale(0.5, 0.5); 
+    zoom: 0.5; 
+    zoom: 50%;
+    }*/
+    .login-page{
+        background-size: initial;
+    }
+    header.welcome-page form{
+        bottom: 10px;
+    }
+    header.welcome-page form button{
+        right: -2px;
+    }
+    header.welcome-page form button i{
+        padding-right: 67px;
     }
 }
 
 @media only screen and (max-width: 1025px){
-    body {
-        -moz-transform: scale(0.4, 0.4); /* Moz-browsers */
-        zoom: 0.4; /* Other non-webkit browsers */
-        zoom: 40%; /* Webkit browsers */
-    }
+    /*body {
+        -moz-transform: scale(0.4, 0.4); 
+        zoom: 0.4; 
+        zoom: 40%;
+    }*/
     header.container-fluid{
         height: 100px;
     }
@@ -968,12 +990,12 @@ section.welcome-page{
         font-size: 24px;
     }
     .request-page h2 {
-        font-size: 64px;
+        /*font-size: 64px;*/
     }
     .request-page input{
-        font-size: 45px;
-        line-height: 100px;
-        height: 100px;
+        /*font-size: 45px;*/
+        /*line-height: 100px;*/
+        /*height: 100px;*/
     }
     .login-page{
        background: url("../img/login.jpg") no-repeat center center fixed; 
@@ -1006,7 +1028,7 @@ section.welcome-page{
         font-size: 28px;    
     }
     .login-page p{
-        transform: scale(0.5);
+        /*transform: scale(0.5);*/
     }
     .login-page section .row div:first-child{
         border-bottom: 2px solid #FFF; 
@@ -1139,17 +1161,17 @@ section.welcome-page{
         padding-left: 15px;
     }
     .hotel-result-page p{
-        font-size: 45px;
-        line-height: 54px;
+        font-size: 25px;
+        line-height: 36px;
     }
     .hotel-result-page a{
-        font-size: 36px;
+        font-size: 22px;
     }
     .hotel-result-page p{
-        padding: 35px 15px 35px 0px
+        padding: 15px 15px 5px 0px
     }
     .hotel-result-page a:first-child {
-        padding-top: 45px;
+        padding-top: 20px;
     }
     .hotel-area {
         border-right: 2px solid #dedede;
@@ -1194,6 +1216,9 @@ section.welcome-page{
     height: 45px;
     line-height: 45px;
     }
+    .welcome-hotel.hotel-list{
+        min-height: 0px;
+    }
 }
 @media only screen and (max-width: 992px){
      header.container-fluid{
@@ -1207,12 +1232,14 @@ section.welcome-page{
     .account-dropdown .dropdown-menu a{
     }
     .request-page input{
-        font-size: 32px;
+     /*   font-size: 32px;
         line-height: 80px;
-        height: 80px;
+        height: 80px;*/
     }
     .login-page p a{
-        font-size: 32px;
+        font-size: 18px;
+        padding-right: 15px;
+        margin: 0px;
     }
     .login-page section .row div:first-child{
         border-bottom: 2px solid #FFF; 
@@ -1301,6 +1328,9 @@ section.welcome-page{
     .hotel-area .checkboxBtn label{
         margin-bottom: 10px;
     }
+    header.welcome-page form button i{
+        padding-right: 100px;
+    }
 }
 @media only screen and (max-width: 767px){
     header input[type=text]{
@@ -1327,19 +1357,19 @@ section.welcome-page{
         margin-bottom: 10px;
     }
     .welcome-hotel > div > p{
-        font-size: 36px;
-        width: 300px;
-        line-height: 50px;
-        height: 50px;
+        /*font-size: 36px;*/
+        width: 40%;
+        line-height: 40px;
+        height: 40px;
     }
     .welcome-hotel div.row div:nth-child(1) > p{
-        font-size: 45px;
+        /*font-size: 45px;*/
     }
     .welcome-hotel div.row div:nth-child(2) > p:nth-child(1) {
-        font-size: 60px;
+        /*font-size: 60px;*/
     }
     .welcome-hotel div.row div:nth-child(2) > p:nth-child(2) {
-        font-size: 75px;
+        /*font-size: 75px;*/
     }
     .hotel-page #hotel-slider .slider-form .col-sm-6{
         float: left;
@@ -1354,6 +1384,42 @@ section.welcome-page{
     }
     .hotel-list-form form input[type=text]{
         text-indent: 10%;
+    }
+    .hotel-page .item img {
+        width: auto;
+        margin-left: -60%;
+        max-width: 240%;
+    }
+    .hotel-page #hotel-slider .carousel-control img{
+        transform: scale(0.5, 0.5);
+-webkit-transform: scale(0.5, 0.5);
+-moz-transform: scale(0.5, 0.5);
+-o-transform: scale(0.5, 0.5);
+-ms-transform: scale(0.5, 0.5);
+    -ms-transform-origin: 20% 40%;
+    -webkit-transform-origin: 20% 40%;
+    transform-origin: 20% 40%;
+    }
+    header.welcome-page form{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    section.welcome-page{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    header.welcome-page form button{
+        right: 0px;
+        width: 108%;
+    }
+    header.welcome-page form button i {
+        padding-right: 64px;
+    }
+    .login-page .custom-check label > span{
+        margin-right: 10px;
+    }
+    .login-page .custom-check label {
+        font-size: 16px;
     }
 }
 /*sprite*/
